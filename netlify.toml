@@ -1,0 +1,8 @@
+# netlify.toml
+[build]
+  command = "echo 'No build needed'"  # Placeholder for static sites
+  publish = "."
+
+# Explicitly enable forms
+[features]
+  netlify-forms = true

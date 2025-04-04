@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Faith Ochieng | Junior developer</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Faith<span>Ochieng</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li><a href="interests.html">Interests</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="contact-hero">
+        <div class="container">
+            <div class="hero-content">
+            <h1>Get In Touch</h1>
+            <p>Have any project ideas in mind or want to discuss potential opportunities?Reach out</p>
+        </div>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>adhiambofaith27@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+254 713 528 845</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Mombasa, Kenya</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <h3>Social Media</h3>
+                        <div class="social-icons">
+                            </a>
+                            <a href="https://github.com/Faith294" target="_blank" class="social-icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://wa.me/0713528845" target="_blank" class="social-icon">
+                                <i class="fab fa-whatsapp"></i>
+                        </div>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1f5zm8gSVjtyPgeYlEqUbb3-rrFVWh3lw/view?usp=drive_link" class="btn cv-btn">Download My CV</a>
+                </div>
+                <div class="contact-form">
+                    <h2>Send Me a Message</h2>
+                    <form 
+  name="contact" 
+  method="POST" 
+  netlify 
+  netlify-honeypot="bot-field" 
+  id="contactForm"
+  class="contact-form"
+>
+  <input type="hidden" name="form-name" value="contact">
+  <p class="hidden">
+    <label>Don't fill this out: <input name="bot-field"></label>
+  </p>
+  
+  <div class="form-group">
+    <label for="name">Your Name *</label>
+    <input type="text" id="name" name="name" required>
+  </div>
+  <div class="form-group">
+    <label for="email">Your Email *</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+  <div class="form-group">
+    <label for="subject">Subject *</label>
+    <input type="text" id="subject" name="subject" required>
+  </div>
+  <div class="form-group">
+    <label for="message">Your Message *</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+  </div>
+  <button type="submit" class="btn">Send Message</button>
+  <div class="form-response-message"></div>
+</form>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li><a href="interests.html">Interests</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Connect With Me</h3>
+                <ul>
+                    <li><a href="https://github.com/Faith294" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                    <li><a href="https://wa.me/0713528845" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+                    <li><a href="mailto:adhiambofaith27@gmail.com"><i class="fas fa-envelope"></i> Gmail</a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Stay Updated</h3>
+                <p>Subscribe to my newsletter for tech project updates</p>
+                <div class="footer-newsletter">
+                    <form 
+                      name="newsletter" 
+                      method="POST" 
+                      netlify
+                      netlify-honeypot="bot-field"
+                      id="newsletterForm" 
+                      class="newsletter-form"
+                    >
+                      <input type="hidden" name="form-name" value="newsletter">
+                      <p class="hidden">
+                        <label>Don't fill this out: <input name="bot-field"></label>
+                      </p>
+                      
+                      <input 
+                        type="email" 
+                        id="newsletterEmail" 
+                        name="email" 
+                        placeholder="Your Email" 
+                        required
+                        aria-label="Your email address"
+                      >
+                      <button type="submit" class="btn">
+                        <span class="btn-text">Subscribe</span>
+                        <i class="fas fa-spinner loading-spinner"></i>
+                      </button>
+                      <div class="form-response-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Faith Ochieng. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
